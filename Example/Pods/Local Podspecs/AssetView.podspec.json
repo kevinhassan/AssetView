@@ -1,0 +1,34 @@
+{
+  "name": "AssetView",
+  "version": "0.1.0",
+  "summary": "Generic view to integrate picture / gif or Lottie on the same view and change at runtime.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kevinhassan/AssetView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevinhassan": "kevinhassan.pro@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinhassan/AssetView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AssetView/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "lottie-ios": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "SDWebImage/GIF": [
+
+    ]
+  }
+}

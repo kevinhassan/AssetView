@@ -1,0 +1,44 @@
+PODS:
+  - AssetView (0.1.0):
+    - lottie-ios
+    - SDWebImage
+    - SDWebImage/GIF
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FLAnimatedImage (1.0.12)
+  - lottie-ios (3.1.6)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SDWebImage/GIF (4.4.8):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - AssetView (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - FLAnimatedImage
+    - lottie-ios
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  AssetView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AssetView: b4c882af428922b4e352cb54b8ec040a5f8f4426
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+
+PODFILE CHECKSUM: e6a95dfa30ae71f5aef9316269faa0f672767efe
+
+COCOAPODS: 1.8.4
